@@ -3,7 +3,47 @@ LobosJR's channel bot. This repository contains used to power many of lobotjr's 
 
 2.0 Introduces new commands, aswell as supplementary 'op' commands for mostly custom commands but also to provide information on static commands. 
 
+Summary Command List:
+OP Commands
+-Add
+-Cancel
+-Delete
+-Edit
+-Info
+General Commands
+-Uptime
+-Time
+-Playlist
+-Opinion
+-Pun
+-Quote
+-Raffle
+RPG Commands
+-Stats
+-Inventory
+-Item
+-Equip
+=Unequip
+-Shop
+-Class
+-Gloat
+-Respec
+-Daily
+-Queue
+-Create Party
+-Add To Party
+-Pending Invite
+-Leave Party
+-Kick Player
+-Promote Player
+-Start
+Wolfpack Leader Commands
+-Add Player XP
+-Add Player Coin
+-Set Player Level
+
 OP Commands: [broadcaster/mod only] (PRIVMSG & WHISPER)
+
 Add:
 !op add cd=10(optional) ut=moderator|broadcaster(optional) !example 'example value' - This operation adds a new custom command. Add commands can include optionally cooldowns (cd) and user types (ut). Cooldowns are in seconds and not setting it will default to 1 second
 cooldown. Not setting the user type will allow everyone to call this command. 
@@ -32,7 +72,7 @@ Uptime:
 '!broadcasting on' was called. If the broadcasting is set to off then a not live message will show.
 
 Time:
-!time - returns current Local time in "HH:mm tt" format.
+!time - returns current Local time in "HH:mm tt" format. Example: 6:33 PM.
 
 Playlist: 
 !playlist - returns a link to a spotify playlist.
