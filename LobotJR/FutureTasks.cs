@@ -35,7 +35,6 @@ namespace LobotJR
                 }
                 Cleanup();
                 wait.WaitOne(min, true);
-                //Thread.Sleep((int)min.TotalMilliseconds);
             }
         }
 
@@ -50,7 +49,6 @@ namespace LobotJR
             {
                 toRemove.Add(ft);
             }
-            //futureTasks.Remove(ft);
         }
 
         private void Cleanup()
