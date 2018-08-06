@@ -32,7 +32,7 @@ Uptime:
 '!broadcasting on' was called. If the broadcasting is set to off then a not live message will show.
 
 Time:
-!time - returns current Local time in "HH:mm tt" format.
+!time - returns current Local time in "HH:mm tt" format. Example: 6:33 PM.
 
 Playlist: 
 !playlist - returns a link to a spotify playlist.
