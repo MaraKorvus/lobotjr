@@ -100,6 +100,7 @@ namespace Command
                                 player.AddXP(xp * rewardmod);
                             }
                         count++;
+                        playerRepository.Save();
                         client.SendMessage(string.Format("Thanks for watching! Viewers " +
                             "awarded {0} XP & {1} Wolfcoins. Subscribers earn double that " +
                             "amount", xp, coins));
