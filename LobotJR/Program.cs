@@ -94,7 +94,7 @@ namespace LobotJr
 
             UptimeCommand uptime = new UptimeCommand();
             Command<IPrivRequest> broadcasting = new BroadcastingFlagCommand(user, playerRepo,
-                pf, uptime, client, futureTaskRegistry, 200, 50, 2, TimeSpan.FromMinutes(1));//5,3,2,30
+                pf, uptime, client, futureTaskRegistry, 1, 3, 2, TimeSpan.FromMinutes(30));
             Command<IPrivRequest> time = new TimeCommand();
             Command<IPrivRequest> playlist = new PlaylistCommand("http://open.spotify.com/user/1251282601/playlist/2j1FVSjJ4zdJiqGQgXgW3t");
             Command<IPrivRequest> opinion = new OpinionCommand();
