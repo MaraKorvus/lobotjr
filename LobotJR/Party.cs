@@ -155,6 +155,13 @@ namespace PartyGroup
         public void AddXp(int xp)
         {
             foreach (var p in Players)
+                if(UsedGroupFinder && 
+                    DateTime.Now.Subtract(p.LastDailyGroupFinder).TotalDays >= 1)
+                {
+                    p.AddXP(xp * 2);
+                    p.LastDailyGroupFinder = DateTime.Now;
+                }
+            else
                 p.AddXP(xp);
         }
 
