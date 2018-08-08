@@ -1,5 +1,5 @@
 # lobotjr
-LobosJR's channel bot. This repository contains used to power many of lobotjr's functions as well as the Wolfpack RPG.
+LobosJR's channel bot. This repository contains the code used to power many of lobotjr's functions as well as the Wolfpack RPG.
 
 2.0 Introduces new commands, aswell as supplementary 'op' commands for mostly custom commands but also to provide information on static commands. 
 
